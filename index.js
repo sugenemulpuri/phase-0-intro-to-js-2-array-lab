@@ -58,6 +58,5 @@ return copyOfCats;
 function removeFirstCat() {
 const copyOfCats = [...cats];
 copyOfCats.shift();
-return copyOfCats;
-
+return copyOfCats
 }
